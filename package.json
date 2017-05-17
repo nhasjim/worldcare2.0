@@ -22,7 +22,6 @@
     "jquery": "^1.11.3"
   },
   "scripts": {
-    "preinstall": "sudo npm i -g gulp",
     "test": "gulp test"
   },
   "repository": {
