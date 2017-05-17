@@ -22,8 +22,6 @@
     "jquery": "^1.11.3"
   },
   "scripts": {
-    "test": "gulp test",
-    "postinstall": "gulp default"
   },
   "repository": {
     "type": "git",
