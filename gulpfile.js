@@ -92,10 +92,12 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() 
   //  gulp.watch('js/**/*.js', browserSync.reload);
 });
 
-gulp.task('heroku:production', ['less', 'minify-css', 'minify-js'], function() {
-    gulp.watch('less/*.less', ['less']);
-    gulp.watch('css/*.css', ['minify-css']);
-    gulp.watch('js/*.js', ['minify-js']);
+gulp.task('serveprod', function() {
+  connect.server({
+    root: [''],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
 });
 
 // Compiles SCSS files from /scss into /css
