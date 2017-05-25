@@ -112,6 +112,6 @@ gulp.task('sass', function() {
         }))
 });
 
-gulp.task('heroku:production', function(){
+gulp.task('heroku:{{production}}', function(){
   console.log('herokuduction');
 });
