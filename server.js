@@ -5,8 +5,7 @@ var path = require('path');
 var filePath = __dirname;
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static('css'));
-app.use(express.static('js'));
+app.use(express.static('public'));
 
 
 app.use(function (req,res,next) {
