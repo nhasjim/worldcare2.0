@@ -8,7 +8,7 @@
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "font-awesome": "^4.6.3",
@@ -19,9 +19,15 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
+<<<<<<< HEAD
     "jquery": "^1.11.3",
     "bootstrap": "latest",
     "express": "latest"
+=======
+    "jquery": "^1.11.3"
+},
+  "scripts": {
+>>>>>>> 78f556ed6e15aa544b5cb8d8c9e35d1398971446
   },
   "repository": {
     "type": "git",

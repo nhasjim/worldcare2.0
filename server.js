@@ -36,8 +36,10 @@ app.get("/",function(req,res){
 
 app.use("/",router);
 
-
-
-app.listen(PORT,function(){
-  console.log("Live at Port 3000");
-});
+var server = app.listen(process.env.PORT || 8080, function () {
+    var port = server.address().port;
+    console.log("App now running on port", port);
+  });
+//app.listen(PORT,function(){
+//  console.log("Live at Port 3000");
+//});
