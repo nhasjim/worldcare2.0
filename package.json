@@ -23,8 +23,6 @@
     "bootstrap": "latest",
     "express": "latest"
   },
-  "scripts": {
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
