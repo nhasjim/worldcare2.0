@@ -2,7 +2,7 @@
 ## How to Run the Website on Localhost
 
 * Run `npm install` in the root directory
-* Run 'npm start server.js'
+* Run `npm start server.js`
 
 
 
