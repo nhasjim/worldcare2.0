@@ -234,7 +234,7 @@ header {
   -moz-background-size: contain;
   background-size: contain;
   -o-background-size: contain;
-  text-align: right;
+  text-align: center;
   color: black;
 }
 header .intro-text {
